@@ -44,12 +44,7 @@ class MPFNN(dde.nn.NN):
 # Read and organize input data
 data = np.load("...../....../3D_cone_data.npy", allow_pickle="TRUE")
 
-coors, gt_disp = data.item()["coordinates"], data.item()["displacements"]
-
-# Normdimensionalize displacements 
-
-#scale = 1e2
-gt_disp = gt_disp #* scale
+coors, gt_disp = data.item()["coordinates"], data.item()["displacements"] 
 
 ux_mean, uy_mean, uz_mean = np.mean(gt_disp[:, 0]), np.mean(gt_disp[:, 1]), np.mean(gt_disp[:, 2])
 ux_std, uy_std, uz_std = np.std(gt_disp[:, 0]), np.std(gt_disp[:, 1]), np.std(gt_disp[:, 2])
