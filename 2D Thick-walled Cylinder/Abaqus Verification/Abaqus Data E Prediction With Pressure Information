@@ -48,7 +48,7 @@ data = np.load("....../....../Ex1_Validation_E1000MPa_Nu0.35_P1MPa.npy", allow_p
 coors, gt_disp = data.item()["coordinates"], data.item()["displacements"]
 
 
-# Normdimensionalize displacements (*Does not effect physics?)
+# Normdimensionalize displacements
 scale = 1e3
 gt_disp = gt_disp * scale
 
