@@ -11,17 +11,6 @@ Repository overview
 
 The repository contains code for the main verification attempts and numerical experiments presented in the thesis.
 
-.
-├── 2D Thick-walled Cylinder/
-│   └── Code and data for Example Code 1
-│
-├── 3D_Linear_Elasticity/
-│   └── Code and data for Example Code 3
-│
-├── Ex4_Neo-Hookean.py
-│   └── Neo-Hookean PINN implementation for patient-specific data testing
-│
-└── README.md
 
 <img width="529" height="232" alt="image" src="https://github.com/user-attachments/assets/2a4f90c0-e401-441d-9680-9364cf212ae6" />
 
