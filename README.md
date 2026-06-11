@@ -23,6 +23,9 @@ The repository contains code for the main verification attempts and numerical ex
 │
 └── README.md
 
+<img width="529" height="232" alt="image" src="https://github.com/user-attachments/assets/2a4f90c0-e401-441d-9680-9364cf212ae6" />
+
+
 Main packages include:
 
 deepxde
